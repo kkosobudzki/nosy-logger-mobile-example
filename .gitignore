@@ -1,0 +1,7 @@
+# js
+node_modules
+
+# android
+android/app/build
+android/.idea
+android/.gradle
