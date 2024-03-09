@@ -74,9 +74,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.nosyloggerexample"
+    namespace "dev.nosytools.rnlogger.example"
     defaultConfig {
-        applicationId "com.nosyloggerexample"
+        applicationId "dev.nosytools.rnlogger.example"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

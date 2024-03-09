@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from "react";
 import {
   Button,
   SafeAreaView,
@@ -6,19 +6,21 @@ import {
   Text,
   TextInput,
   View,
-} from 'react-native';
-import logger from '@nosytools/logger-mobile';
+} from "react-native";
+import logger from "@nosytools/logger-mobile";
 
-logger.init('TODO get api key');
+logger.init(
+  "2lRuZT3YCrauY7rFiZMLXx8bGr36wYKd1BoHKGHk8zc+OsntaIjAhd8tFjZ3qX/bHzQKqrsxiYlTdoyOP4Arrg=="
+);
 
 function App(): React.JSX.Element {
-  const [message, setMessage] = useState('');
+  const [message, setMessage] = useState("");
 
   const disabled = message.length < 3;
 
   return (
     <SafeAreaView>
-      <StatusBar barStyle={'light-content'} />
+      <StatusBar barStyle={"light-content"} />
       <View>
         <Text>Nosy Logger Example</Text>
 

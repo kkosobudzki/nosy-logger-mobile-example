@@ -1,4 +1,4 @@
-package com.nosyloggerexample
+package dev.nosytools.rnlogger.example
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
